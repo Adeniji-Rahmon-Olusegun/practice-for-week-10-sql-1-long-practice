@@ -1,13 +1,4 @@
--- Your code here
-PRAGMA foreign_keys = ON;
-
-DROP TABLE IF EXISTS departments;
-DROP TABLE IF EXISTS roles;
-DROP TABLE IF EXISTS employees;
-DROP TABLE IF EXISTS relationships;
-DROP TABLE IF EXISTS performance_rating;
-DROP TABLE IF EXISTS office_parties;
-DROP TABLE IF EXISTS party_attendance;
+PRAGMA foreign_key = ON;
 
 CREATE TABLE IF NOT EXISTS departments(
     department_id INTEGER PRIMARY KEY AUTOINCREMENT,
